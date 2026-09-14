@@ -87,8 +87,8 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .sponsors { padding: 9vw 8vw; }
 .section-intro { max-width: 580px; line-height: 1.8; }
 .sponsor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 3rem; }
-.sponsor-card { min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem; padding: 2rem; border: 1px solid var(--line); background: rgba(251,247,237,0.45); text-align: center; text-decoration: none; transition: transform 180ms ease, background 180ms ease; }
-.sponsor-card:hover { transform: translateY(-5px); background: var(--paper); }
+.sponsor-card { min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem; padding: 2rem; border: 1px solid var(--line); background: #fff; text-align: center; text-decoration: none; transition: transform 180ms ease, background 180ms ease; }
+.sponsor-card:hover { transform: translateY(-5px); background: #fff; }
 .sponsor-card-static { cursor: default; }
 .sponsor-card-static:hover { transform: none; }
 .sponsor-card img { width: 140px; height: 140px; object-fit: cover; border: 1px solid rgba(163,123,47,0.35); border-radius: 50%; clip-path: circle(50% at 50% 50%); }
