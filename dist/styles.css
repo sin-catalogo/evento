@@ -89,7 +89,10 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .sponsor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 3rem; }
 .sponsor-card { min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem; padding: 2rem; border: 1px solid var(--line); background: rgba(251,247,237,0.45); text-align: center; text-decoration: none; transition: transform 180ms ease, background 180ms ease; }
 .sponsor-card:hover { transform: translateY(-5px); background: var(--paper); }
+.sponsor-card-static { cursor: default; }
+.sponsor-card-static:hover { transform: none; }
 .sponsor-card img { width: 140px; height: 140px; object-fit: cover; border: 1px solid rgba(163,123,47,0.35); border-radius: 50%; clip-path: circle(50% at 50% 50%); }
+.sponsor-card img.sponsor-logo-wide { width: 190px; object-fit: contain; border: 0; border-radius: 0; clip-path: none; }
 .sponsor-card span { width: 86px; height: 86px; display: grid; place-items: center; border: 1px dashed var(--gold); border-radius: 50%; color: var(--gold); font-family: "Cormorant Garamond", serif; font-size: 1.2rem; }
 .sponsor-card strong { font-family: "Cormorant Garamond", serif; font-size: 2rem; }
 .sponsor-card small { color: var(--olive); text-transform: uppercase; letter-spacing: 0.12em; }

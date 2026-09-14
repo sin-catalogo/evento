@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title">
+<title>Rincón de los Leones</title><rect width="1000" height="700" fill="#fff"/>
+<g fill="#85888a" transform="translate(500 285)">
+<circle cx="-155" cy="-125" r="45"/><circle cx="-55" cy="-173" r="43"/><ellipse cx="55" cy="-180" rx="40" ry="48"/><circle cx="160" cy="-125" r="45"/>
+<path d="M-175-25C-210 45-170 120-90 165-18 205 92 185 155 110 182 78 202 37 193 6 167 50 129 81 85 99 36 119-21 117-70 96-119 75-154 30-175-25Z"/>
+<path d="M-82-26C-57-86 27-105 87-60 128-29 121 35 74 58 49 70 33 55 44 35 57 12 43-7 16-7-11-7-30 12-43 36-54 58-83 44-90 18-94 3-91-12-82-26Z"/>
+</g>
+<rect x="125" y="510" width="750" height="100" rx="18" fill="#85888a"/>
+<text x="500" y="580" fill="#fff" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="56">RINCÓN de los LEONES</text>
+</svg>
