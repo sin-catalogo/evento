@@ -93,6 +93,7 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .sponsor-card-static:hover { transform: none; }
 .sponsor-card img { width: 140px; height: 140px; object-fit: cover; border: 1px solid rgba(163,123,47,0.35); border-radius: 50%; clip-path: circle(50% at 50% 50%); }
 .sponsor-card img.sponsor-logo-wide { width: 190px; object-fit: contain; border: 0; border-radius: 0; clip-path: none; }
+.sponsor-card img[src$="logo-hanan-pacha.png"] { mix-blend-mode: multiply; }
 .sponsor-card span { width: 86px; height: 86px; display: grid; place-items: center; border: 1px dashed var(--gold); border-radius: 50%; color: var(--gold); font-family: "Cormorant Garamond", serif; font-size: 1.2rem; }
 .sponsor-card strong { font-family: "Cormorant Garamond", serif; font-size: 2rem; }
 .sponsor-card small { color: var(--olive); text-transform: uppercase; letter-spacing: 0.12em; }
