@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title">
+<title>Guardavida</title>
+<g fill="#ba8a2d">
+<path d="M500 40l22 135 58-112-10 140 94-100-52 132 126-62-99 105 142-17-130 65 143 32-145 17 124 79-139-48 87 116-112-88 39 139-77-122-12 143-31-140-64 130 22-142-105 101 73-125-134 55 115-87-144 9 136-51-137-43 144 1-122-77 140 37-93-111 118 82-48-137 85 117 3-144 41 139z"/>
+</g>
+<path d="M350 275l80-80 70 62 70-62 80 80-150-48z" fill="#2f2418"/>
+<text x="500" y="455" fill="#2f2418" font-family="Georgia,'Times New Roman',serif" font-size="150" text-anchor="middle">Guardavida</text>
+</svg>
