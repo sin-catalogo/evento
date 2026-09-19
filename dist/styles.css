@@ -1,4 +1,5 @@
 :root {
+  color-scheme: only light;
   --cream: #f4eddd;
   --paper: #fbf7ed;
   --ink: #2f2418;
@@ -10,7 +11,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 68px; }
+html { scroll-behavior: smooth; scroll-padding-top: 68px; background-color: #f4eddd; color-scheme: only light; }
 body {
   margin: 0;
   background: var(--cream);
