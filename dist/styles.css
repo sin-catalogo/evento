@@ -6,7 +6,7 @@
   --olive-dark: #3f4924;
   --gold: #a37b2f;
   --line: rgba(47, 36, 24, 0.2);
-  --corner-radius: 4px;
+  --corner-radius: 2px;
 }
 
 * { box-sizing: border-box; }
