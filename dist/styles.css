@@ -109,8 +109,8 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .venue-logo { width: 100%; height: auto; }
 .location p:not(.eyebrow) { margin: 1.4rem 0 2rem; }
 .location .location-details { display: grid; gap: 1rem; }
-.location .reservation-button { display: flex; width: max-content; max-width: 100%; min-height: 56px; margin: 0 auto 1rem; padding-inline: 2rem; box-shadow: 0 8px 20px rgba(63, 73, 36, 0.18); }
-.location .reservation-button:hover { background: var(--olive); }
+.location .reservation-button { display: flex; width: max-content; max-width: 100%; min-height: 56px; margin: 0 auto 1rem; padding-inline: 2rem; background: #d2ba7a; color: var(--ink); box-shadow: 0 8px 20px rgba(163, 123, 47, 0.2); }
+.location .reservation-button:hover { background: var(--gold); color: var(--paper); }
 .location .button-outline { display: flex; width: max-content; min-height: 44px; margin: 0 auto; padding-inline: 1.25rem; font-size: 0.72rem; }
 .button-outline { background: transparent; color: var(--ink); border: 1px solid var(--ink); transition: background 180ms ease, color 180ms ease; }
 .button-outline:hover { background: var(--ink); color: var(--paper); }
