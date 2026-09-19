@@ -59,7 +59,7 @@ h1 { margin: 0; font-size: clamp(4.4rem, 9vw, 8.5rem); line-height: 0.76; letter
 .event-data small { color: var(--olive); font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; }
 .event-data strong { font-family: "Cormorant Garamond", serif; font-size: 1.25rem; }
 .event-address { display: block; margin-top: 0.25rem; font-family: "Montserrat", sans-serif; font-size: 0.68rem; font-weight: 500; line-height: 1.35; }
-.button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 0 1.6rem; background: var(--olive-dark); color: var(--paper); text-decoration: none; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+.button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 0 1.6rem; border-radius: 12px; background: var(--olive-dark); color: var(--paper); text-decoration: none; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
 .hero-button { width: max-content; }
 
 .hero-art { position: relative; display: grid; place-items: center; }
@@ -87,7 +87,7 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .sponsors { padding: 9vw 8vw; }
 .section-intro { max-width: 580px; line-height: 1.8; }
 .sponsor-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-top: 3rem; }
-.sponsor-card { min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem; padding: 2rem; border: 1px solid var(--line); background: #fff; text-align: center; text-decoration: none; transition: transform 180ms ease, background 180ms ease; }
+.sponsor-card { min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem; padding: 2rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; text-align: center; text-decoration: none; transition: transform 180ms ease, background 180ms ease; }
 .sponsor-card:hover { transform: translateY(-5px); background: #fff; }
 .sponsor-card-static { cursor: default; }
 .sponsor-card-static:hover { transform: none; }
@@ -106,7 +106,7 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .venue-text-link:hover { opacity: 0.65; }
 .venue-logo-link { display: block; width: min(300px, 80vw); margin: 2rem auto 1.25rem; padding: 1rem 1.25rem; border-radius: 12px; background: var(--ink); transition: transform 180ms ease; }
 .venue-logo-link:hover { transform: translateY(-3px); }
-.venue-logo { width: 100%; height: auto; }
+.venue-logo { width: 100%; height: auto; border-radius: 12px; }
 .location p:not(.eyebrow) { margin: 1.4rem 0 2rem; }
 .location .location-details { display: grid; gap: 1rem; }
 .location .reservation-button { display: flex; width: max-content; max-width: 100%; min-height: 56px; margin: 0 auto 1rem; padding-inline: 2rem; background: #d2ba7a; color: var(--ink); box-shadow: 0 8px 20px rgba(163, 123, 47, 0.2); }
