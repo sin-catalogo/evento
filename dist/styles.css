@@ -242,10 +242,16 @@ footer p { margin: 0; font-family: "Cormorant Garamond", serif; font-size: 1.2re
     object-position: center 52%;
   }
   .venue-photo-logo-link {
-    top: 12%;
+    top: 7%;
+    left: 5%;
+    width: 36%;
+    height: 13%;
   }
   .venue-photo-instagram {
-    bottom: 10%;
+    top: 21%;
+    bottom: auto;
+    left: 5%;
+    transform: none;
   }
 }
 
