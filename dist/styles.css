@@ -225,6 +225,26 @@ footer { display: flex; justify-content: space-between; align-items: center; gap
 .footer-instagram:hover { color: var(--paper); }
 footer p { margin: 0; font-family: "Cormorant Garamond", serif; font-size: 1.2rem; font-style: italic; }
 
+@media (min-width: 851px) {
+  .venue-photo-frame {
+    width: min(900px, 100%);
+    height: min(620px, 72vh);
+    overflow: hidden;
+  }
+  .venue-photo-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 52%;
+  }
+  .venue-photo-logo-link {
+    top: 12%;
+  }
+  .venue-photo-instagram {
+    bottom: 10%;
+  }
+}
+
 @media (max-width: 850px) {
   .hero { grid-template-columns: 1fr; padding: 4rem 6vw 5rem; }
   .hero-art { grid-row: 1; width: min(360px, 90vw); margin: 0 auto; }
