@@ -248,10 +248,10 @@ footer p { margin: 0; font-family: "Cormorant Garamond", serif; font-size: 1.2re
     height: 13%;
   }
   .venue-photo-instagram {
-    top: 21%;
+    top: 22.5%;
     bottom: auto;
-    left: 5%;
-    transform: none;
+    left: 23%;
+    transform: translateX(-50%);
   }
 }
 
