@@ -129,20 +129,23 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 
 .sponsors { padding: 9vw 8vw; }
 .section-intro { max-width: 580px; line-height: 1.8; }
-.sponsor-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-top: 3rem; }
-.sponsor-card { min-height: 280px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem; padding: 2rem; border: 1px solid var(--line); border-radius: var(--corner-radius); background: #fff; text-align: center; text-decoration: none; transition: transform 180ms ease, background 180ms ease; }
+.sponsor-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.85rem; margin-top: 3rem; }
+.sponsor-card { min-height: 230px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.7rem; padding: 1.25rem; border: 1px solid var(--line); border-radius: var(--corner-radius); background: #fff; text-align: center; text-decoration: none; transition: transform 180ms ease, background 180ms ease; }
 .sponsor-card:hover { transform: translateY(-5px); background: #fff; }
 .sponsor-card-static { cursor: default; }
 .sponsor-card-static:hover { transform: none; }
-.sponsor-card img { width: 140px; height: 140px; object-fit: cover; border: 1px solid rgba(163,123,47,0.35); border-radius: 50%; clip-path: circle(50% at 50% 50%); }
-.sponsor-card img.sponsor-logo-wide { width: 190px; object-fit: contain; border: 0; border-radius: 0; clip-path: none; }
+.sponsor-card img { width: 110px; height: 110px; object-fit: cover; border: 1px solid rgba(163,123,47,0.35); border-radius: 50%; clip-path: circle(50% at 50% 50%); }
+.sponsor-card img.sponsor-logo-wide { width: 150px; object-fit: contain; border: 0; border-radius: 0; clip-path: none; }
 .sponsor-card img[src$="logo-hanan-pacha.png"] { mix-blend-mode: multiply; }
 .sponsor-card img[src$="logo-hanan-pacha.png"],
 .sponsor-card img[src$="fincacosmos.jpg.jpeg"],
 .sponsor-card img[src$="logo-sin-catalogo.jpg"] { border-radius: var(--corner-radius); }
 .sponsor-card span { width: 86px; height: 86px; display: grid; place-items: center; border: 1px dashed var(--gold); border-radius: 50%; color: var(--gold); font-family: "Cormorant Garamond", serif; font-size: 1.2rem; }
-.sponsor-card strong { font-family: "Cormorant Garamond", serif; font-size: 2rem; }
+.sponsor-card strong { font-family: "Cormorant Garamond", serif; font-size: 1.55rem; line-height: 1.05; }
 .sponsor-card small { color: var(--olive); text-transform: uppercase; letter-spacing: 0.12em; }
+.sponsor-card img.sponsor-logo-thermoteknik { width: 170px; height: 100px; }
+.sponsor-card-placeholder { border-style: dashed; background: rgba(255,255,255,0.45); }
+.sponsor-card-placeholder:hover { transform: none; background: rgba(255,255,255,0.45); }
 
 .location {
   position: relative;
