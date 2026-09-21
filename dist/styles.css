@@ -155,6 +155,10 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .sponsor-card-kuku { background: #372015; }
 .sponsor-card-humus { background: #000; }
 .sponsor-card-sincatalogo { background: #f4eddd; }
+.sponsor-card-cosmos img { width: 90%; height: 90%; }
+.sponsor-card-conscientemente img { width: 86%; height: 86%; }
+.sponsor-card-humus img { width: 86%; height: 86%; }
+.sponsor-card-sincatalogo img { width: 92%; height: 92%; }
 .sponsor-card img.sponsor-logo-maincal { filter: brightness(0) saturate(100%); }
 
 .location {
