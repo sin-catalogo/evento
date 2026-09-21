@@ -144,8 +144,7 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .sponsor-card strong { font-family: "Cormorant Garamond", serif; font-size: 1.55rem; line-height: 1.05; }
 .sponsor-card small { color: var(--olive); text-transform: uppercase; letter-spacing: 0.12em; }
 .sponsor-card img.sponsor-logo-thermoteknik { width: 170px; height: 100px; }
-.sponsor-card-placeholder { border-style: dashed; background: rgba(255,255,255,0.45); }
-.sponsor-card-placeholder:hover { transform: none; background: rgba(255,255,255,0.45); }
+.sponsor-card img.sponsor-logo-maincal { width: 125px; height: 100px; filter: brightness(0) saturate(100%); }
 
 .location {
   position: relative;
