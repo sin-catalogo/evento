@@ -89,8 +89,11 @@ h1 { margin: 0; font-size: clamp(4.4rem, 9vw, 8.5rem); line-height: 0.76; letter
   position: absolute;
   top: 2.2%;
   left: 24%;
+  z-index: 2;
   width: 52%;
   height: 13%;
+  background: url("assets/logo-pulpo-level-v2.png") center / contain no-repeat;
+  filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.75));
 }
 .venue-photo-logo-link:focus-visible {
   outline: 2px solid var(--cream);
