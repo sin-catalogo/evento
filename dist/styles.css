@@ -72,6 +72,7 @@ h1 { margin: 0; font-size: clamp(4.4rem, 9vw, 8.5rem); line-height: 0.76; letter
 .hero-art img { position: relative; z-index: 1; display: block; width: min(520px, 90%); aspect-ratio: 1; object-fit: cover; border-radius: 50%; mix-blend-mode: darken; clip-path: circle(40% at 50% 50%); }
 
 .venue-photo-section {
+  position: relative;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -81,6 +82,21 @@ h1 { margin: 0; font-size: clamp(4.4rem, 9vw, 8.5rem); line-height: 0.76; letter
   width: min(760px, 100%);
   height: auto;
 }
+.venue-photo-instagram {
+  position: absolute;
+  bottom: clamp(1.25rem, 3vw, 2.25rem);
+  left: 50%;
+  color: var(--cream);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-decoration: none;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.9);
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  transition: color 180ms ease;
+}
+.venue-photo-instagram:hover { color: #d2ba7a; }
 
 .experience { padding: 9vw 8vw; background: var(--olive-dark); color: var(--paper); }
 .experience .eyebrow { color: #d2ba7a; }
@@ -147,8 +163,6 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .venue-logo-link { display: block; width: min(260px, 68vw); margin: 2rem auto 0.75rem; padding: 0; background: transparent; transition: transform 180ms ease; }
 .venue-logo-link:hover { transform: translateY(-3px); }
 .venue-logo { width: 100%; height: auto; border-radius: var(--corner-radius); }
-.venue-instagram { display: inline-block; margin-bottom: 0.5rem; color: var(--cream); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-decoration: none; text-transform: uppercase; transition: color 180ms ease; }
-.venue-instagram:hover { color: #d2ba7a; }
 .location .event-price { color: #e0c98d; font-weight: 600; letter-spacing: 0.05em; }
 .location p:not(.eyebrow) { margin: 1.4rem 0 2rem; }
 .location .location-details { display: grid; gap: 1rem; }
