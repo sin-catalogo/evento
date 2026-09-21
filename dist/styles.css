@@ -72,15 +72,29 @@ h1 { margin: 0; font-size: clamp(4.4rem, 9vw, 8.5rem); line-height: 0.76; letter
 .hero-art img { position: relative; z-index: 1; display: block; width: min(520px, 90%); aspect-ratio: 1; object-fit: cover; border-radius: 50%; mix-blend-mode: darken; clip-path: circle(40% at 50% 50%); }
 
 .venue-photo-section {
-  position: relative;
   display: grid;
   place-items: center;
   overflow: hidden;
   background: #140d09;
 }
-.venue-photo-section img {
+.venue-photo-frame {
+  position: relative;
   width: min(760px, 100%);
+}
+.venue-photo-section img {
+  width: 100%;
   height: auto;
+}
+.venue-photo-logo-link {
+  position: absolute;
+  top: 2.2%;
+  left: 24%;
+  width: 52%;
+  height: 13%;
+}
+.venue-photo-logo-link:focus-visible {
+  outline: 2px solid var(--cream);
+  outline-offset: 4px;
 }
 .venue-photo-instagram {
   position: absolute;
