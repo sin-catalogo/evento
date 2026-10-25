@@ -327,3 +327,5 @@ footer p { margin: 0; font-family: "Cormorant Garamond", serif; font-size: 1.2re
 a:focus-visible { outline: 3px solid var(--gold); outline-offset: 5px; }
 @media(max-width:850px) { .hero { grid-template-columns: minmax(0,1fr); gap: 2.5rem; padding: 2rem 6vw 4rem; } .hero-art { width: min(340px,85vw); } .hero-copy { text-align: center; } .hero-copy .intro { margin-inline: auto; } .proposal-grid { grid-template-columns: minmax(0,1fr); max-width: 600px; margin-inline: auto; } .proposals { padding: 4rem 6vw; } .proposal-card > img { height: 380px; } }
 @media(max-width:480px) { .hero-art { width: min(270px,80vw); } .brand-statement { font-size: 1.5rem; margin-top: .25rem; } .hero h1 { font-size: clamp(2.6rem,11vw,3.4rem); line-height: 1; } .hero .eyebrow { font-size: .65rem; line-height: 1.8; } .hero .intro { line-height: 1.7; margin-top: 1rem; } .hero-button { width: 100%; padding: 1rem; line-height: 1.5; } .proposal-card > img { height: 320px; } .contact .button { width: 100%; line-height: 1.6; } }
+
+.proposal-card > img.food-drinks-photo { object-fit: contain; background: var(--paper); }
